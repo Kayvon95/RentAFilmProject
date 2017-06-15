@@ -2,27 +2,13 @@
  * Created by Lars on 15-6-2017.
  */
 
-var express = require('express');
-var routes = express.Router();
-var db = require('../db/db_connector');
-
-routes.get('*', function (req, res) {
-    res.contentType('application/json');
-    res.status(200);
-    res.json({
-        'welkom' : 'hallo!'
-    });
-});
-
-module.exports = routes;
-
 //Dit bestand bevat de endpoints die de logica van de interactie met de database bevat
 var express = require('express');
 var router = express.Router();
 var path = require('path');
 var pool = require('../db/db_connector');
 
-<<<<<<< HEAD
+
 //Test cities
 router.get('/test', function(req, res){
     res.send('Testresults.');
@@ -95,6 +81,4 @@ router.get('/rentals/:userid', function(req, res){
 });
 
 module.exports = router;
-=======
 
->>>>>>> origin/feature-server
