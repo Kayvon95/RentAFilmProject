@@ -14,11 +14,47 @@ router.get('/test', function(req, res){
 });
 
 //Endpoint voor de registratie van nieuwe gebruikers/klanten
-router.post('register', function (req, res){
+router.post('/register', function (req, res){
     var customer = {
-
+        customer_id: req.body.customer_id,
+        store_id: req.body.store_id,
+        first_name: req.body.first_name,
+        last_name: req.body.last_name,
+        email: req.body.email,
+        address_id: req.body.address_id,
+        active: req.body.active,
+        create_date: req.body.create_date,
+        last_update: req.body.last_update,
+        password: req.body.password
     };
 
+    var query_str = "INSERT INTO customer VALUES ('" +
+        customer.customer_id + "', '" +
+        customer.store_id + "', '" +
+        customer.first_name + "', '" +
+        customer.last_name + "', '" +
+        customer.email + "', '" +
+        customer.address_id + "', '" +
+        customer.active + "', '" +
+        customer.create_date+ "', '" +
+        customer.last_update + "', '" +
+        customer.password + "');";
+
+
+    console.log(query_str);
+
+    pool.getConnection(function (err, connection) {
+        if (err) {
+            throw err
+        }
+        connection.query(query_str, function (err, rows, fields) {
+            connection.release();
+            if (err) {
+                throw err;
+            }
+            res.status(200).json(rows);
+        })
+    });
 });
 
 //Endpoint om films op te zoeken door hun unieke ID op te geven.
