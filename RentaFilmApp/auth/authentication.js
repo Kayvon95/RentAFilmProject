@@ -31,8 +31,11 @@ function decodeToken(token, cb) {
         cb(null, payload);
 
     } catch (err){
-        err;
+        cb(err, null);
     }
 }
 
-module.exports = encodeToken(), decodeToken();
+module.exports = {
+    encodeToken,
+    decodeToken
+};
