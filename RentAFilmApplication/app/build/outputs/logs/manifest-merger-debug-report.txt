@@ -1,8 +1,8 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Lars\Documents\GitHub\RentAFilmProject\RentAFilmApplication\app\src\main\AndroidManifest.xml:2:1-21:12
+ADDED from C:\Users\Lars\Documents\GitHub\RentAFilmProject\RentAFilmApplication\app\src\main\AndroidManifest.xml:2:1-22:12
 	package
-		ADDED from C:\Users\Lars\Documents\GitHub\RentAFilmProject\RentAFilmApplication\app\src\main\AndroidManifest.xml:3:5-44
+		ADDED from C:\Users\Lars\Documents\GitHub\RentAFilmProject\RentAFilmApplication\app\src\main\AndroidManifest.xml:3:5-52
 		INJECTED from C:\Users\Lars\Documents\GitHub\RentAFilmProject\RentAFilmApplication\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Lars\Documents\GitHub\RentAFilmProject\RentAFilmApplication\app\src\main\AndroidManifest.xml
 	android:versionName
@@ -14,7 +14,7 @@ ADDED from C:\Users\Lars\Documents\GitHub\RentAFilmProject\RentAFilmApplication\
 		INJECTED from C:\Users\Lars\Documents\GitHub\RentAFilmProject\RentAFilmApplication\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Lars\Documents\GitHub\RentAFilmProject\RentAFilmApplication\app\src\main\AndroidManifest.xml
 application
-ADDED from C:\Users\Lars\Documents\GitHub\RentAFilmProject\RentAFilmApplication\app\src\main\AndroidManifest.xml:5:5-19:19
+ADDED from C:\Users\Lars\Documents\GitHub\RentAFilmProject\RentAFilmApplication\app\src\main\AndroidManifest.xml:5:5-20:19
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Lars\.android\build-cache\4aebbb47709f8b1cf7319440021556927dc0a5ef\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Lars\.android\build-cache\008125297d45fdc32b0985704367a3ba0d9db3e3\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Lars\.android\build-cache\4c0dd9341778d9bd4c89ecc1b52ae28fa4ddae7a\output\AndroidManifest.xml:29:5-20
@@ -37,20 +37,20 @@ MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\La
 		ADDED from C:\Users\Lars\Documents\GitHub\RentAFilmProject\RentAFilmApplication\app\src\main\AndroidManifest.xml:7:9-43
 	android:theme
 		ADDED from C:\Users\Lars\Documents\GitHub\RentAFilmProject\RentAFilmApplication\app\src\main\AndroidManifest.xml:11:9-40
-activity#com.example.lars.rentafilmapp.MainActivity
-ADDED from C:\Users\Lars\Documents\GitHub\RentAFilmProject\RentAFilmApplication\app\src\main\AndroidManifest.xml:12:9-18:20
+activity#com.example.lars.rentafilmapplication.MainActivity
+ADDED from C:\Users\Lars\Documents\GitHub\RentAFilmProject\RentAFilmApplication\app\src\main\AndroidManifest.xml:12:9-19:20
 	android:name
-		ADDED from C:\Users\Lars\Documents\GitHub\RentAFilmProject\RentAFilmApplication\app\src\main\AndroidManifest.xml:12:19-47
+		ADDED from C:\Users\Lars\Documents\GitHub\RentAFilmProject\RentAFilmApplication\app\src\main\AndroidManifest.xml:13:13-41
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\Lars\Documents\GitHub\RentAFilmProject\RentAFilmApplication\app\src\main\AndroidManifest.xml:13:13-17:29
+ADDED from C:\Users\Lars\Documents\GitHub\RentAFilmProject\RentAFilmApplication\app\src\main\AndroidManifest.xml:14:13-18:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Lars\Documents\GitHub\RentAFilmProject\RentAFilmApplication\app\src\main\AndroidManifest.xml:14:17-69
+ADDED from C:\Users\Lars\Documents\GitHub\RentAFilmProject\RentAFilmApplication\app\src\main\AndroidManifest.xml:15:17-69
 	android:name
-		ADDED from C:\Users\Lars\Documents\GitHub\RentAFilmProject\RentAFilmApplication\app\src\main\AndroidManifest.xml:14:25-66
+		ADDED from C:\Users\Lars\Documents\GitHub\RentAFilmProject\RentAFilmApplication\app\src\main\AndroidManifest.xml:15:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Lars\Documents\GitHub\RentAFilmProject\RentAFilmApplication\app\src\main\AndroidManifest.xml:16:17-77
+ADDED from C:\Users\Lars\Documents\GitHub\RentAFilmProject\RentAFilmApplication\app\src\main\AndroidManifest.xml:17:17-77
 	android:name
-		ADDED from C:\Users\Lars\Documents\GitHub\RentAFilmProject\RentAFilmApplication\app\src\main\AndroidManifest.xml:16:27-74
+		ADDED from C:\Users\Lars\Documents\GitHub\RentAFilmProject\RentAFilmApplication\app\src\main\AndroidManifest.xml:17:27-74
 uses-sdk
 INJECTED from C:\Users\Lars\Documents\GitHub\RentAFilmProject\RentAFilmApplication\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Lars\.android\build-cache\4aebbb47709f8b1cf7319440021556927dc0a5ef\output\AndroidManifest.xml:21:5-23:78
