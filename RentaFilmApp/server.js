@@ -6,8 +6,6 @@ var http = require('http');
 var express = require('express');
 var config = require('./config.json');
 var bodyParser = require('body-parser');
-var routes_v1 = require('./routes/routes_v1');
-var auth_routes_v1 = require('./routes/authentication.routes.v1');
 var expressJWT = require('express-jwt');
 
 var db = require('./db/db_connector');
@@ -23,7 +21,12 @@ app.use(bodyParser.json({ type: 'application/vnd.api+json'}));
 app.use(expressJWT({
     secret: config.secretkey
 }).unless({
-    path: ['/api/v1/login']
+    path: [
+        { url: '/api/v1/login', methods: ['POST'] },
+        { url: '/api/v1/register', methods: ['POST'] },
+        { url: '/api/v1/films?offset=:start&count=:number', methods: ['GET'] },
+        { url: '/api/v1/films/:filmid', methods: ['GET'] },
+    ]
 }));
 
 // app configuration
@@ -55,7 +58,8 @@ app.use('*', function (req, res, next) {
 
 //installeer routes
 // app.use('/api/v1', require('./routes/authentication.routes.v1'));
-// app.use('/api/v1', require('./routes/routes_v1'));
+app.use('/api/v1', require('./routes/authentication.routes.v1'));
+app.use('/api/v1', require('./routes/routes_v1'));
 
 app.use(function (err, req, res, next) {
     console.dir(err);
