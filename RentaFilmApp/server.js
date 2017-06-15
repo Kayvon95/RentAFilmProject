@@ -18,11 +18,16 @@ app.use(bodyParser.json());
 app.use(bodyParser.json({ type: 'application/vnd.api+json'}));
 
 //Laat de server gebruik maken van JWT, haal de secret key op uit config.
-// app.use(expressJWT({
-//     secret: config.secretkey
-// }).unless({
-//     path: ['/api/v1/login']
-// }));
+app.use(expressJWT({
+    secret: config.secretkey
+}).unless({
+    path: [
+        { url: '/api/v1/login', methods: ['POST'] },
+        { url: '/api/v1/register', methods: ['POST'] },
+        { url: '/api/v1/films?offset=:start&count=:number', methods: ['GET'] },
+        { url: '/api/v1/films/:filmid', methods: ['GET'] },
+    ]
+}));
 
 // app configuration
 

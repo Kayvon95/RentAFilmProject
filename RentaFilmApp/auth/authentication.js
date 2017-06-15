@@ -5,17 +5,17 @@ var settings = require('../config.json');
 const moment = require('moment');
 const jwt = require('jwt-simple');
 
-// encode (username naar token)
-function encodeToken(username) {
+// encode (email naar token)
+function encodeToken(email) {
     const payload = {
         exp: moment().add(2, 'days').unix,
         iat: moment().unix,
-        sub: username
+        sub: email
     };
     return jwt.encode(payload, settings.secretkey);
 }
 
-// decode (token naar username)
+// decode (token naar email)
 function decodeToken(token, cb) {
     try{
         const payload = jwt.decode(token, settings.secretkey);
