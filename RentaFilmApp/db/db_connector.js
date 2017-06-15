@@ -6,12 +6,14 @@ var config = require('../config');
 
 var pool = mysql.createPool({
     connectionLimit: 25,
-    host : config.dbHost,
-    user : config.dbUser,
-    password : config.dbPassword,
-    database : config.dbDatabase,
-    port : config.dbPort
+    host : process.env.DB_HOST || config.dbHost,
+    user : process.env.DB_USER || config.dbUser,
+    password : process.env.DB_PASSWORD || config.dbPassword,
+    database : process.env.DB_DATABASE || config.dbDatabase,
+    port : config.dbPort,
+    debug: false
 });
+
 
 
 pool.getConnection( function (err, conn){
@@ -19,6 +21,7 @@ pool.getConnection( function (err, conn){
         console.log(err + "It no work.");
     } else {
         console.log("Connected to database '" + config.dbDatabase + "' on " + config.dbPort + '.');
+        conn.release();
     }
 });
 
