@@ -20,11 +20,11 @@ app.use(bodyParser.json());
 app.use(bodyParser.json({ type: 'application/vnd.api+json'}));
 
 //Laat de server gebruik maken van JWT, haal de secret key op uit config.
-app.use(expressJWT({
-    secret: config.secretkey
-}).unless({
-    path: ['/api/v1/login']
-}));
+// app.use(expressJWT({
+//     secret: config.secretkey
+// }).unless({
+//     path: ['/api/v1/login']
+// }));
 
 // app configuration
 
@@ -55,7 +55,7 @@ app.use('*', function (req, res, next) {
 
 //installeer routes
 // app.use('/api/v1', require('./routes/authentication.routes.v1'));
-// app.use('/api/v1', require('./routes/routes_v1'));
+app.use('/api/v1', require('./routes/routes_v1'));
 
 app.use(function (err, req, res, next) {
     console.dir(err);
