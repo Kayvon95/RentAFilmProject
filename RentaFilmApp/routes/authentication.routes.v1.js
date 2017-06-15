@@ -30,5 +30,6 @@ router.post('/login', function (req, res) {
     });
 });
 
+
 // maak route beschikbaar
 module.exports = router;

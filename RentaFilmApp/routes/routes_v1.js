@@ -115,4 +115,26 @@ router.get('/rentals/:userid', function(req, res){
 
 });
 
+//Endpoint om een uitlening te verwijderen op basis van opgegeven klant ID en exemplaar ID
+router.delete('/rentals/:customerid/:inventoryid', function(req, res){
+   var customerid = req.params.customerid;
+   var inventoryid = req.params.inventoryid;
+
+   var query_str = "DELETE FROM rental WHERE customer_id = '" + customerid + "' AND inventory_id = '" + inventoryid + "';";
+    console.log(query_str);
+
+    pool.getConnection(function (err, connection) {
+        if (err) {
+            throw err
+        }
+        connection.query(query_str, function (err, rows, fields) {
+            connection.release();
+            if (err) {
+                throw err
+            }
+            res.status(200).json(rows);
+        });
+    });
+});
+
 module.exports = router;
