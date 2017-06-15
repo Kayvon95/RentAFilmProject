@@ -84,6 +84,10 @@
         "source": "C:\\Users\\Lars\\.android\\build-cache\\4aebbb47709f8b1cf7319440021556927dc0a5ef\\output\\res\\layout\\abc_list_menu_item_radio.xml"
     },
     {
+        "merged": "C:\\Users\\Lars\\Documents\\GitHub\\RentAFilmProject\\RentAFilmApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_home.xml",
+        "source": "C:\\Users\\Lars\\Documents\\GitHub\\RentAFilmProject\\RentAFilmApplication\\app\\src\\main\\res\\layout\\activity_home.xml"
+    },
+    {
         "merged": "C:\\Users\\Lars\\Documents\\GitHub\\RentAFilmProject\\RentAFilmApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
         "source": "C:\\Users\\Lars\\.android\\build-cache\\4aebbb47709f8b1cf7319440021556927dc0a5ef\\output\\res\\layout\\abc_action_menu_item_layout.xml"
     },

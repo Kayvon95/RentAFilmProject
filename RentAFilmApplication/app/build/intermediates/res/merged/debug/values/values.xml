@@ -448,6 +448,7 @@
     <string name="app_name">RentAFilmApplication</string>
     <string name="btn_login">Login</string>
     <string name="email_hint">Email</string>
+    <string name="error_server_offline">Server kan niet bereikt worden.</string>
     <string name="link_to_register">Not a member? Sign up now.</string>
     <string name="password_hint">Password</string>
     <string name="search_menu_title">Search</string>
@@ -460,7 +461,7 @@
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/bg</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorAccent">@color/input</item>
     </style>
     <style name="Base.AlertDialog.AppCompat" parent="android:Widget">
         <item name="android:layout">@layout/abc_alert_dialog_material</item>
