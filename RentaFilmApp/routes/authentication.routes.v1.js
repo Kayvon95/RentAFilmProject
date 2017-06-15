@@ -16,7 +16,8 @@ router.post('/login', function (req, res) {
 
     var password = req.body.password || '';
 
-    // db query om users op te halen
+    // db query ; geeft alle info van de email & password combinatie uit de body; wanneer de uitkomst leeg is, en je dus
+    // geen match hebt, wordt er geen token gegenereerd. 
     db.query('SELECT * FROM customer WHERE email = "' + email + '" AND password = "' + password + '"', function (error, rows) {
         if (rows != "") {
             var token = auth.encodeToken(email);
