@@ -1,6 +1,7 @@
 /**
  * Created by Kayvon Rahimi on 13-6-2017.
  */
+//Initialize components.
 var http = require('http');
 var express = require('express');
 var config = require('./config.json');
