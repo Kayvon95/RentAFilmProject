@@ -39,13 +39,40 @@ app.get( '*' , function(req, res, next){
     next();
 });
 
+// About the server
 app.get('/about', function(request, response){
     response.send('This project serves as practice for programming classes.' + '\n'  +
         'This server is currently hosted on port ' + port );
 });
 
+//Preprocessor route om te testen of gebruiker ingelogd is
+app.use('*', function (req, res, next) {
+    // console.log etc....
+    next();
+});
 
+//installeer routes
 
+app.use(function (err, req, res, next) {
+    console.dir(err);
+    var error = {
+        message: err.message,
+        code: err.code,
+        name: err.name,
+        status: err.status
+    }
+    res.status(401).send(error);
+});
+
+// Fallback voor als geen enkele route werkt
+app.use('*', function(req, res) {
+    res.status(400);
+    res.json({
+        'error': 'URL niet beschikbaar.'
+    });
+});
+
+// Installatie klaar; start server
 app.listen(port, function () {
    console.log('The Rent-A-Film server is listening on port ' + port );
 });
