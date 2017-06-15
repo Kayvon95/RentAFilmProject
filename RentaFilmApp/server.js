@@ -6,8 +6,6 @@ var http = require('http');
 var express = require('express');
 var config = require('./config.json');
 var bodyParser = require('body-parser');
-var routes_v1 = require('./routes/routes_v1');
-var auth_routes_v1 = require('./routes/authentication.routes.v1');
 var expressJWT = require('express-jwt');
 
 var db = require('./db/db_connector');
@@ -54,7 +52,11 @@ app.use('*', function (req, res, next) {
 });
 
 //installeer routes
+<<<<<<< HEAD
 // app.use('/api/v1', require('./routes/authentication.routes.v1'));
+=======
+app.use('/api/v1', require('./routes/authentication.routes.v1'));
+>>>>>>> origin/feature-server
 app.use('/api/v1', require('./routes/routes_v1'));
 
 app.use(function (err, req, res, next) {
