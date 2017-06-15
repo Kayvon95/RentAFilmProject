@@ -1,9 +1,8 @@
 {
   "webPort": "9001",
-  "dbDatabase" : "world",
-  "dbHost" : "Localhost",
+  "dbDatabase" : "1078",
+  "dbHost" : "146.185.130.82",
   "dbPort" : "3306",
-  "dbUser" : "root",
-  "dbPassword" : "",
-  "secretkey" : "SomeVeryC0mpl3xKeyw1thnumb34598158and823"
+  "dbUser" : "1078",
+  "dbPassword" : "secret"
 }
