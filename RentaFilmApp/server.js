@@ -52,6 +52,8 @@ app.use('*', function (req, res, next) {
 });
 
 //installeer routes
+// app.use('/api/v1', require('./routes/authentication.routes.v1'));
+// app.use('/api/v1', require('./routes/routes_v1'));
 
 app.use(function (err, req, res, next) {
     console.dir(err);
