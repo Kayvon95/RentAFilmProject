@@ -7,7 +7,8 @@ var router = express.Router();
 var path = require('path');
 var pool = require('../db/db_connector');
 
-//Test cities
+
+//Test
 router.get('/test', function(req, res){
     res.send('Testresults.');
 });
