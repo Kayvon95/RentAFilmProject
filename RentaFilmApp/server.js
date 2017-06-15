@@ -40,11 +40,8 @@ app.get( '*' , function(req, res, next){
     next();
 });
 
-<<<<<<< HEAD
 
-=======
 // About the server
->>>>>>> origin/feature-server
 app.get('/about', function(request, response){
     response.send('This project serves as practice for programming classes.' + '\n'  +
         'This server is currently hosted on port ' + port );
