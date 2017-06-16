@@ -57,7 +57,40 @@ router.post('/register', function (req, res){
     });
 });
 
+//Endpoint om films op te zoeken vanaf een geven filmID-index.
+//De gebruiker kan optioneel een limiet aan resultaten opgeven.
+router.get('/films/offset/:offset/count/:number?', function (req, res) {
+    var offset = req.params.offset;
+    var number = req.params.number;
+    var query_str;
+
+    if ( offset && number) {
+        query_str = "SELECT * FROM film LIMIT " + offset + ", "+ number + ";";
+    } else if (offset) {
+        //query_str = "SELECT * FROM film LIMIT 9999, " + offset + ";";
+        query_str = "SELECT * FROM film WHERE film_id >= " + offset + ";";
+    } else {
+        res.status(404);
+        res.json({ "description" : "404 - Response not found. Check your URL and verify you have given a value offset."})
+    }
+
+    pool.getConnection(function (err, connection) {
+        if (err) {
+            throw err
+        }
+        connection.query(query_str, function (err, rows, fields) {
+            connection.release();
+            if (err) {
+                throw err
+            }
+            res.status(200).json(rows);
+        })
+    });
+});
+
+
 //Endpoint om films op te zoeken door hun unieke ID op te geven.
+//Bij een gebrek aan filmID in de URL worden alle films opgehaald uit de DB.
 router.get('/films/:filmid?', function (req, res){
     var filmid = req.params.filmid;
     var query_str;
@@ -124,6 +157,35 @@ router.delete('/rentals/:customerid/:inventoryid', function(req, res){
 
    var query_str = "DELETE FROM rental WHERE customer_id = '" + customerid + "' AND inventory_id = '" + inventoryid + "';";
     console.log(query_str);
+
+    pool.getConnection(function (err, connection) {
+        if (err) {
+            throw err
+        }
+        connection.query(query_str, function (err, rows, fields) {
+            connection.release();
+            if (err) {
+                throw err
+            }
+            res.status(200).json(rows);
+        });
+    });
+});
+
+//Endpoint om de beschikbaarheid van een exemplaar in het assortiment te veranderen.
+//Geef na 'inventory' in URL de id mee en na 'state' de boolean value.
+router.post('/inventory/:inventoryid/available/:state', function(req, res){
+    var inventoryid = req.params.inventoryid;
+    var state = req.params.state;
+
+    var query_str;
+
+    if (inventoryid && state) {
+        query_str = "UPDATE inventory SET available = " + state + " WHERE inventory_id = " + inventoryid + ";";
+    } else {
+        res.status(404);
+        res.json({ "description" : "404 - URL not found.    Wrong parameter, please check your URL again and verify your submitted inventory id or state."});
+    }
 
     pool.getConnection(function (err, connection) {
         if (err) {
