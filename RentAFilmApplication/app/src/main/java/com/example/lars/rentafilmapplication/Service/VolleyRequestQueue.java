@@ -16,7 +16,6 @@ import static android.icu.lang.UCharacter.GraphemeClusterBreak.T;
  * Created by Lars on 15-6-2017.
  */
 
-
 // De requestqueue klasse wordt gemaakt als singleton om te zorgen dat hij blijft runnen zolang de app open staat.
 // Wanneer je maar één maal de request hoeft te maken, kun je de requestqueue aanroepen waar je wil, en hem
 // vervolgens stoppen met stop() wanneer je een response hebt gekregen.

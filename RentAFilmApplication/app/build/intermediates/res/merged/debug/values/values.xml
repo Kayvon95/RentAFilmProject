@@ -445,7 +445,7 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
-    <string name="app_name">RentAFilmApplication</string>
+    <string name="app_name">RentAFilm</string>
     <string name="btn_login">Login</string>
     <string name="email_hint">Email</string>
     <string name="error_server_offline">Server kan niet bereikt worden.</string>
@@ -458,7 +458,7 @@
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>
     <style name="Animation.AppCompat.DropDownUp" parent="Base.Animation.AppCompat.DropDownUp"/>
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
-        <!-- Customize your theme here. -->
+        
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/bg</item>
         <item name="colorAccent">@color/input</item>

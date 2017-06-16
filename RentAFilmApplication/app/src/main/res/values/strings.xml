@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">RentAFilmApplication</string>
+    <string name="app_name">RentAFilm</string>
 
     <!--Login-->
     <string name="email_hint">Email</string>
