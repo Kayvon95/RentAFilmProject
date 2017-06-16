@@ -917,7 +917,14 @@
                     "endOffset": 6358
                 },
                 "from": {
-                    "file": "C:\\Users\\Lars\\Documents\\GitHub\\RentAFilmProject\\RentAFilmApplication\\app\\src\\main\\res\\values\\colors.xml"
+                    "file": "C:\\Users\\Lars\\Documents\\GitHub\\RentAFilmProject\\RentAFilmApplication\\app\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 157,
+                        "endColumn": 45,
+                        "endOffset": 198
+                    }
                 }
             },
             {
@@ -929,7 +936,14 @@
                     "endOffset": 6405
                 },
                 "from": {
-                    "file": "C:\\Users\\Lars\\Documents\\GitHub\\RentAFilmProject\\RentAFilmApplication\\app\\src\\main\\res\\values\\colors.xml"
+                    "file": "C:\\Users\\Lars\\Documents\\GitHub\\RentAFilmProject\\RentAFilmApplication\\app\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 57,
+                        "endColumn": 46,
+                        "endOffset": 99
+                    }
                 }
             },
             {
@@ -941,7 +955,14 @@
                     "endOffset": 6456
                 },
                 "from": {
-                    "file": "C:\\Users\\Lars\\Documents\\GitHub\\RentAFilmProject\\RentAFilmApplication\\app\\src\\main\\res\\values\\colors.xml"
+                    "file": "C:\\Users\\Lars\\Documents\\GitHub\\RentAFilmProject\\RentAFilmApplication\\app\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 105,
+                        "endColumn": 50,
+                        "endOffset": 151
+                    }
                 }
             },
             {
@@ -3209,14 +3230,7 @@
                     "endOffset": 44026
                 },
                 "from": {
-                    "file": "C:\\Users\\Lars\\Documents\\GitHub\\RentAFilmProject\\RentAFilmApplication\\app\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 1,
-                        "startColumn": 4,
-                        "startOffset": 17,
-                        "endColumn": 46,
-                        "endOffset": 59
-                    }
+                    "file": "C:\\Users\\Lars\\Documents\\GitHub\\RentAFilmProject\\RentAFilmApplication\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
