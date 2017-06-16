@@ -58,12 +58,14 @@ router.post('/register', function (req, res){
 });
 
 //Endpoint om films op te zoeken door hun unieke ID op te geven.
-router.get('/films/:filmid', function (req, res){
+router.get('/films/:filmid?', function (req, res){
     var filmid = req.params.filmid;
     var query_str;
 
     if (filmid) {
         query_str = 'SELECT * FROM film WHERE film_id = "' + filmid + '";';
+    } else if(!filmid) {
+        query_str= 'SELECT * FROM film;';
     } else {
         res.status(404);
         res.json({ "description" : "404 - Response not found.    Wrong parameter, please check your URL again and verify your film id."});
