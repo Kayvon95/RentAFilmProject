@@ -12,7 +12,23 @@
         "source": "C:\\Users\\Lars\\.android\\build-cache\\4aebbb47709f8b1cf7319440021556927dc0a5ef\\output\\res\\drawable-v21\\abc_btn_colored_material.xml"
     },
     {
+        "merged": "C:\\Users\\Kayvon Rahimi\\Documents\\GitHub\\RentAFilmProject\\RentAFilmApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\Kayvon Rahimi\\.android\\build-cache\\b37b64e4bf45271099090ebcb098f95a7f7f8484\\output\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kayvon Rahimi\\Documents\\GitHub\\RentAFilmProject\\RentAFilmApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\notification_action_background.xml",
+        "source": "C:\\Users\\Kayvon Rahimi\\.android\\build-cache\\b37b64e4bf45271099090ebcb098f95a7f7f8484\\output\\res\\drawable-v21\\notification_action_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kayvon Rahimi\\Documents\\GitHub\\RentAFilmProject\\RentAFilmApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\Kayvon Rahimi\\.android\\build-cache\\b37b64e4bf45271099090ebcb098f95a7f7f8484\\output\\res\\drawable-v21\\abc_edit_text_material.xml"
+    },
+    {
         "merged": "C:\\Users\\Lars\\Documents\\GitHub\\RentAFilmProject\\RentAFilmApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
         "source": "C:\\Users\\Lars\\.android\\build-cache\\4aebbb47709f8b1cf7319440021556927dc0a5ef\\output\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kayvon Rahimi\\Documents\\GitHub\\RentAFilmProject\\RentAFilmApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "C:\\Users\\Kayvon Rahimi\\.android\\build-cache\\b37b64e4bf45271099090ebcb098f95a7f7f8484\\output\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
     }
 ]

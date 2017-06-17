@@ -1,5 +1,13 @@
 [
     {
+        "merged": "C:\\Users\\Kayvon Rahimi\\Documents\\GitHub\\RentAFilmProject\\RentAFilmApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\Kayvon Rahimi\\.android\\build-cache\\b37b64e4bf45271099090ebcb098f95a7f7f8484\\output\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kayvon Rahimi\\Documents\\GitHub\\RentAFilmProject\\RentAFilmApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\Kayvon Rahimi\\.android\\build-cache\\b37b64e4bf45271099090ebcb098f95a7f7f8484\\output\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
         "merged": "C:\\Users\\Lars\\Documents\\GitHub\\RentAFilmProject\\RentAFilmApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
         "source": "C:\\Users\\Lars\\.android\\build-cache\\4aebbb47709f8b1cf7319440021556927dc0a5ef\\output\\res\\layout-v21\\notification_template_custom_big.xml"
     },
@@ -8,11 +16,19 @@
         "source": "C:\\Users\\Lars\\.android\\build-cache\\4aebbb47709f8b1cf7319440021556927dc0a5ef\\output\\res\\layout-v21\\notification_action.xml"
     },
     {
+        "merged": "C:\\Users\\Kayvon Rahimi\\Documents\\GitHub\\RentAFilmProject\\RentAFilmApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\Kayvon Rahimi\\.android\\build-cache\\b37b64e4bf45271099090ebcb098f95a7f7f8484\\output\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
         "merged": "C:\\Users\\Lars\\Documents\\GitHub\\RentAFilmProject\\RentAFilmApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
         "source": "C:\\Users\\Lars\\.android\\build-cache\\4aebbb47709f8b1cf7319440021556927dc0a5ef\\output\\res\\layout-v21\\notification_action_tombstone.xml"
     },
     {
         "merged": "C:\\Users\\Lars\\Documents\\GitHub\\RentAFilmProject\\RentAFilmApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
         "source": "C:\\Users\\Lars\\.android\\build-cache\\4aebbb47709f8b1cf7319440021556927dc0a5ef\\output\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kayvon Rahimi\\Documents\\GitHub\\RentAFilmProject\\RentAFilmApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\Kayvon Rahimi\\.android\\build-cache\\b37b64e4bf45271099090ebcb098f95a7f7f8484\\output\\res\\layout-v21\\notification_action.xml"
     }
 ]

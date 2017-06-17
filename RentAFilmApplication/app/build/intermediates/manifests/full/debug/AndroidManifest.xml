@@ -30,6 +30,7 @@
             </intent-filter>
         </activity>
         <activity android:name="com.example.lars.rentafilmapplication.Presentation.HomeActivity" />
+        <activity android:name="com.example.lars.rentafilmapplication.Presentation.RegisterActivity" />
     </application>
 
 </manifest>
