@@ -25,7 +25,7 @@ app.use(expressJWT({
         { url: '/api/v1/login', methods: ['POST'] },
         { url: '/api/v1/register', methods: ['POST'] },
         { url: '/api/v1/films?offset=:start&count=:number', methods: ['GET'] },
-        { url: '/api/v1/films/:filmid', methods: ['GET'] },
+        { url: '/api/v1/films/:filmid', methods: ['GET'] }
     ]
 }));
 
@@ -72,11 +72,11 @@ app.use(function (err, req, res, next) {
     res.status(401).send(error);
 });
 
-// Fallback voor als geen enkele route werkt
+// Fallback voor als de opgegeven URL niet werkt
 app.use('*', function(req, res) {
     res.status(400);
     res.json({
-        'error': 'URL niet beschikbaar.'
+        'error': 'URL not found '+ '\n' + 'The URL you submitted is not tied to any endpoints. Check your URL and try again.'
     });
 });
 
