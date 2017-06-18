@@ -20,7 +20,12 @@
             </intent-filter>
         </activity>
         <activity android:name=".Presentation.HomeActivity" />
-        <activity android:name=".Presentation.RegisterActivity"></activity>
+        <activity android:name=".Presentation.RegisterActivity" />
+        <activity android:name=".Presentation.SearchFilmActivity" />
+        <activity android:name=".Presentation.FilmDetailActivity" />
+        <activity android:name=".Presentation.RentalActivity" />
+        <activity android:name=".Presentation.RentalDetailActivity" />
+        <activity android:name=".Presentation.CreateRentalActivity"></activity>
     </application>
 
 </manifest>

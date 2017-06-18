@@ -20,24 +20,24 @@
         "source": "C:\\Users\\Kayvon Rahimi\\.android\\build-cache\\b37b64e4bf45271099090ebcb098f95a7f7f8484\\output\\res\\drawable\\notification_bg_low.xml"
     },
     {
-        "merged": "C:\\Users\\Lars\\Documents\\GitHub\\RentAFilmProject\\RentAFilmApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
-        "source": "C:\\Users\\Lars\\.android\\build-cache\\4aebbb47709f8b1cf7319440021556927dc0a5ef\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
-    },
-    {
         "merged": "C:\\Users\\Lars\\Documents\\GitHub\\RentAFilmProject\\RentAFilmApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
         "source": "C:\\Users\\Lars\\.android\\build-cache\\4aebbb47709f8b1cf7319440021556927dc0a5ef\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lars\\Documents\\GitHub\\RentAFilmProject\\RentAFilmApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "C:\\Users\\Lars\\.android\\build-cache\\4aebbb47709f8b1cf7319440021556927dc0a5ef\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
     },
     {
         "merged": "C:\\Users\\Lars\\Documents\\GitHub\\RentAFilmProject\\RentAFilmApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
         "source": "C:\\Users\\Lars\\.android\\build-cache\\4aebbb47709f8b1cf7319440021556927dc0a5ef\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
     },
     {
-        "merged": "C:\\Users\\Kayvon Rahimi\\Documents\\GitHub\\RentAFilmProject\\RentAFilmApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
-        "source": "C:\\Users\\Kayvon Rahimi\\.android\\build-cache\\b37b64e4bf45271099090ebcb098f95a7f7f8484\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
-    },
-    {
         "merged": "C:\\Users\\Kayvon Rahimi\\Documents\\GitHub\\RentAFilmProject\\RentAFilmApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
         "source": "C:\\Users\\Kayvon Rahimi\\.android\\build-cache\\b37b64e4bf45271099090ebcb098f95a7f7f8484\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kayvon Rahimi\\Documents\\GitHub\\RentAFilmProject\\RentAFilmApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "C:\\Users\\Kayvon Rahimi\\.android\\build-cache\\b37b64e4bf45271099090ebcb098f95a7f7f8484\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
     },
     {
         "merged": "C:\\Users\\Lars\\Documents\\GitHub\\RentAFilmProject\\RentAFilmApplication\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",

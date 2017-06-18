@@ -1,15 +1,15 @@
 [
     {
-        "merged": "C:\\Users\\Kayvon Rahimi\\Documents\\GitHub\\RentAFilmProject\\RentAFilmApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_home.xml",
-        "source": "C:\\Users\\Kayvon Rahimi\\Documents\\GitHub\\RentAFilmProject\\RentAFilmApplication\\app\\src\\main\\res\\layout\\activity_home.xml"
+        "merged": "C:\\Users\\Kayvon Rahimi\\Documents\\GitHub\\RentAFilmProject\\RentAFilmApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
+        "source": "C:\\Users\\Kayvon Rahimi\\.android\\build-cache\\b37b64e4bf45271099090ebcb098f95a7f7f8484\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
     },
     {
         "merged": "C:\\Users\\Kayvon Rahimi\\Documents\\GitHub\\RentAFilmProject\\RentAFilmApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
         "source": "C:\\Users\\Kayvon Rahimi\\.android\\build-cache\\b37b64e4bf45271099090ebcb098f95a7f7f8484\\output\\res\\layout\\abc_list_menu_item_layout.xml"
     },
     {
-        "merged": "C:\\Users\\Kayvon Rahimi\\Documents\\GitHub\\RentAFilmProject\\RentAFilmApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
-        "source": "C:\\Users\\Kayvon Rahimi\\.android\\build-cache\\b37b64e4bf45271099090ebcb098f95a7f7f8484\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
+        "merged": "C:\\Users\\Kayvon Rahimi\\Documents\\GitHub\\RentAFilmProject\\RentAFilmApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_home.xml",
+        "source": "C:\\Users\\Kayvon Rahimi\\Documents\\GitHub\\RentAFilmProject\\RentAFilmApplication\\app\\src\\main\\res\\layout\\activity_home.xml"
     },
     {
         "merged": "C:\\Users\\Lars\\Documents\\GitHub\\RentAFilmProject\\RentAFilmApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
@@ -24,12 +24,12 @@
         "source": "C:\\Users\\Lars\\.android\\build-cache\\4aebbb47709f8b1cf7319440021556927dc0a5ef\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
     },
     {
-        "merged": "C:\\Users\\Kayvon Rahimi\\Documents\\GitHub\\RentAFilmProject\\RentAFilmApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
-        "source": "C:\\Users\\Kayvon Rahimi\\.android\\build-cache\\b37b64e4bf45271099090ebcb098f95a7f7f8484\\output\\res\\layout\\abc_list_menu_item_radio.xml"
-    },
-    {
         "merged": "C:\\Users\\Kayvon Rahimi\\Documents\\GitHub\\RentAFilmProject\\RentAFilmApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
         "source": "C:\\Users\\Kayvon Rahimi\\.android\\build-cache\\b37b64e4bf45271099090ebcb098f95a7f7f8484\\output\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kayvon Rahimi\\Documents\\GitHub\\RentAFilmProject\\RentAFilmApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "C:\\Users\\Kayvon Rahimi\\.android\\build-cache\\b37b64e4bf45271099090ebcb098f95a7f7f8484\\output\\res\\layout\\abc_list_menu_item_radio.xml"
     },
     {
         "merged": "C:\\Users\\Lars\\Documents\\GitHub\\RentAFilmProject\\RentAFilmApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
@@ -38,6 +38,10 @@
     {
         "merged": "C:\\Users\\Lars\\Documents\\GitHub\\RentAFilmProject\\RentAFilmApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
         "source": "C:\\Users\\Lars\\.android\\build-cache\\4aebbb47709f8b1cf7319440021556927dc0a5ef\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kayvon Rahimi\\Documents\\GitHub\\RentAFilmProject\\RentAFilmApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_rental_detail.xml",
+        "source": "C:\\Users\\Kayvon Rahimi\\Documents\\GitHub\\RentAFilmProject\\RentAFilmApplication\\app\\src\\main\\res\\layout\\activity_rental_detail.xml"
     },
     {
         "merged": "C:\\Users\\Lars\\Documents\\GitHub\\RentAFilmProject\\RentAFilmApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
@@ -76,8 +80,16 @@
         "source": "C:\\Users\\Kayvon Rahimi\\.android\\build-cache\\b37b64e4bf45271099090ebcb098f95a7f7f8484\\output\\res\\layout\\abc_dialog_title_material.xml"
     },
     {
+        "merged": "C:\\Users\\Kayvon Rahimi\\Documents\\GitHub\\RentAFilmProject\\RentAFilmApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_listitem_film.xml",
+        "source": "C:\\Users\\Kayvon Rahimi\\Documents\\GitHub\\RentAFilmProject\\RentAFilmApplication\\app\\src\\main\\res\\layout\\custom_listitem_film.xml"
+    },
+    {
         "merged": "C:\\Users\\Lars\\Documents\\GitHub\\RentAFilmProject\\RentAFilmApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
         "source": "C:\\Users\\Lars\\.android\\build-cache\\4aebbb47709f8b1cf7319440021556927dc0a5ef\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kayvon Rahimi\\Documents\\GitHub\\RentAFilmProject\\RentAFilmApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\toolbar.xml",
+        "source": "C:\\Users\\Kayvon Rahimi\\Documents\\GitHub\\RentAFilmProject\\RentAFilmApplication\\app\\src\\main\\res\\layout\\toolbar.xml"
     },
     {
         "merged": "C:\\Users\\Lars\\Documents\\GitHub\\RentAFilmProject\\RentAFilmApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
@@ -180,6 +192,10 @@
         "source": "C:\\Users\\Kayvon Rahimi\\.android\\build-cache\\b37b64e4bf45271099090ebcb098f95a7f7f8484\\output\\res\\layout\\select_dialog_multichoice_material.xml"
     },
     {
+        "merged": "C:\\Users\\Kayvon Rahimi\\Documents\\GitHub\\RentAFilmProject\\RentAFilmApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_rental.xml",
+        "source": "C:\\Users\\Kayvon Rahimi\\Documents\\GitHub\\RentAFilmProject\\RentAFilmApplication\\app\\src\\main\\res\\layout\\activity_rental.xml"
+    },
+    {
         "merged": "C:\\Users\\Kayvon Rahimi\\Documents\\GitHub\\RentAFilmProject\\RentAFilmApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_register.xml",
         "source": "C:\\Users\\Kayvon Rahimi\\Documents\\GitHub\\RentAFilmProject\\RentAFilmApplication\\app\\src\\main\\res\\layout\\activity_register.xml"
     },
@@ -214,6 +230,10 @@
     {
         "merged": "C:\\Users\\Kayvon Rahimi\\Documents\\GitHub\\RentAFilmProject\\RentAFilmApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
         "source": "C:\\Users\\Kayvon Rahimi\\.android\\build-cache\\b37b64e4bf45271099090ebcb098f95a7f7f8484\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kayvon Rahimi\\Documents\\GitHub\\RentAFilmProject\\RentAFilmApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_search_film.xml",
+        "source": "C:\\Users\\Kayvon Rahimi\\Documents\\GitHub\\RentAFilmProject\\RentAFilmApplication\\app\\src\\main\\res\\layout\\activity_search_film.xml"
     },
     {
         "merged": "C:\\Users\\Kayvon Rahimi\\Documents\\GitHub\\RentAFilmProject\\RentAFilmApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
@@ -288,6 +308,10 @@
         "source": "C:\\Users\\Lars\\.android\\build-cache\\4aebbb47709f8b1cf7319440021556927dc0a5ef\\output\\res\\layout\\abc_action_bar_up_container.xml"
     },
     {
+        "merged": "C:\\Users\\Kayvon Rahimi\\Documents\\GitHub\\RentAFilmProject\\RentAFilmApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_create_rental.xml",
+        "source": "C:\\Users\\Kayvon Rahimi\\Documents\\GitHub\\RentAFilmProject\\RentAFilmApplication\\app\\src\\main\\res\\layout\\activity_create_rental.xml"
+    },
+    {
         "merged": "C:\\Users\\Lars\\Documents\\GitHub\\RentAFilmProject\\RentAFilmApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
         "source": "C:\\Users\\Lars\\.android\\build-cache\\4aebbb47709f8b1cf7319440021556927dc0a5ef\\output\\res\\layout\\abc_alert_dialog_material.xml"
     },
@@ -306,5 +330,9 @@
     {
         "merged": "C:\\Users\\Kayvon Rahimi\\Documents\\GitHub\\RentAFilmProject\\RentAFilmApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
         "source": "C:\\Users\\Kayvon Rahimi\\.android\\build-cache\\b37b64e4bf45271099090ebcb098f95a7f7f8484\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kayvon Rahimi\\Documents\\GitHub\\RentAFilmProject\\RentAFilmApplication\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_film_detail.xml",
+        "source": "C:\\Users\\Kayvon Rahimi\\Documents\\GitHub\\RentAFilmProject\\RentAFilmApplication\\app\\src\\main\\res\\layout\\activity_film_detail.xml"
     }
 ]
